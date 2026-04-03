@@ -1,3 +1,9 @@
+forge script script/Deploynft.s.sol:DeployMyNft 
+--rpc-url https://eth-sepolia.g.alchemy.com/v2/MJUJlpbdShFQfc2Dt7c4j 
+--private-key 980e805ac340b7550e552c767baa745a4d2bb0c8499f7d1201be128cbee557c8 
+--broadcast
+
+
 # 🟦 **模块 1：Solidity 智能合约（4 个功能）**
 
 要写一个最简单的 **ERC721 NFT 合约**：
