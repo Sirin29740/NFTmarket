@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.10;
+
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MyNft is ERC721URIStorage, Ownable {
+    uint256 private _tokenId;
+
+    constructor() ERC721("MyNftMarket", "MYNFT") Ownable(msg.sender) {}
+
+    function mint(
+        address to,
+        string memory tokenURI
+    ) public onlyOwner returns (uint256) {
+        _tokenId += 1;
+        uint256 newId = _tokenId;
+
+        _safeMint(to, newId);
+        _setTokenURI(newId, tokenURI);
+
+        return newId;
+    }
+}
