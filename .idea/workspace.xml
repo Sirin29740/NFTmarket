@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26e64809-72ce-475b-afbf-063bcd1516b3" name="更改" comment="0">
-      <change beforePath="$PROJECT_DIR$/contracts" beforeDir="false" afterPath="$PROJECT_DIR$/contracts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/v1/nft.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/v1/nft.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/internal/database/initDB.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/internal/database/initDB.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/internal/nft/mint.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/internal/nft/mint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/internal/nft/nft.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/internal/nft/nft.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/internal/nft/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/internal/nft/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +25,8 @@
         <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
         <option value="HTML File" />
-        <option value="Go File" />
         <option value="Solidity Contract" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -79,7 +86,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/goproject/NFTmarket/main.go&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\GoLand 2025.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },

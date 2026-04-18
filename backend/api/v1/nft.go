@@ -41,7 +41,7 @@ func Getnftlist(c *gin.Context) {
 	defer resp.Body.Close()
 	var alchemyRes struct {
 		OwnedNfts []struct {
-			TokenId     string `json:"tokenId"`
+			TokenID     uint64 `json:"tokenId"`
 			Name        string `json:"name"`
 			Description string `json:"description"`
 			Image       struct {
@@ -55,7 +55,7 @@ func Getnftlist(c *gin.Context) {
 	var nftlist []nft.NFT
 	for _, n := range alchemyRes.OwnedNfts {
 		nftlist = append(nftlist, nft.NFT{
-			TokenID:     n.TokenId,
+			TokenID:     n.TokenID,
 			Name:        n.Name,
 			Description: n.Description,
 			Image:       n.Image.OriginalUrl,

@@ -6,10 +6,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 )
 
-const MyNftAddress = "0x5368c8a780B05f4A5aa267c54503b84Ed688EbE9" // anvil 部署出来的
+const MyNftAddress = "0x5368c8a780B05f4A5aa267c54503b84Ed688EbE9"
 
 func MintNFT(to string, tokenURI string) (string, error) {
-	client, auth, err := InitRPC()
+	client, err := GetClient()
 	if err != nil {
 		return "", err
 	}
@@ -20,6 +20,7 @@ func MintNFT(to string, tokenURI string) (string, error) {
 		return "", err
 	}
 
+	auth, err := GetAuth()
 	tx, err := instance.Mint(auth, common.HexToAddress(to), tokenURI)
 	if err != nil {
 		return "", err
